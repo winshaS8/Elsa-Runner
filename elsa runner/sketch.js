@@ -98,7 +98,7 @@ background(225);
   if(gameState == "end")
     {
       obstaclesGroup.destroyEach();
-      diamondsGroup.destroyEach()sss;
+      diamondsGroup.destroyEach();
       player.destroy();
       ground.destroy();
       gameover = createSprite(300,300,30,30);
